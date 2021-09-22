@@ -1,3 +1,6 @@
+print(100*'--')
+print([line.strip() for line in open('map_func.py')]) #wczytanie tego pliku
+
 txt = ['Funkcja lambda to funkcje anonimowe',
 	'Funkcje anonimowe nie maja nazwy',
 	'Funkcje w Pythonie sa obiektami.']
