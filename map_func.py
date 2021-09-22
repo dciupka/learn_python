@@ -13,3 +13,4 @@ Nie = 'nie'
 Tak = 'tak'
 nie = map(lambda word : (Nie, word) if 'nie' in  word else (Tak, word), txt)
 print(list(nie))
+
