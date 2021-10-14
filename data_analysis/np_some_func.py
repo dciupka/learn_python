@@ -9,4 +9,7 @@ for losowanie in range(1,7):
 	zakres-=1
 	liczba=liczby_do_wylosowania.pop(index)
 	pusta_lista.append(liczba)
-	print(set(pusta_lista), len(set(pusta_lista)))
+if len(set(pusta_lista))>=6:
+	a = np.array([pusta_lista])
+
+print(a)
