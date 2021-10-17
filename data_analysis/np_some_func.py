@@ -1,5 +1,6 @@
 import numpy as np
 from random import randint, choice
+
 liczby_do_wylosowania = [x for x in range(1,50)]
 zakres = 49
 # lotto funkcja z np
@@ -11,5 +12,4 @@ for losowanie in range(1,7):
 	pusta_lista.append(liczba)
 if len(set(pusta_lista))>=6:
 	a = np.array([pusta_lista])
-
-print(a)
+	print(a)
