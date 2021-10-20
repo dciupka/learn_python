@@ -23,5 +23,5 @@ print(taxed)
 print(big_whale)
 
 
-listaX = np.array([2,3,4,5])
-print(names[np.nonzero(taxation>0.3)[0]])
+#listaX = np.array([2,3,4,5])
+#print(names[np.nonzero(taxation>0.3)[0]])
